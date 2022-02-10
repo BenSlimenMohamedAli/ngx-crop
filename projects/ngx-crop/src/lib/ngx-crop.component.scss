@@ -1,0 +1,24 @@
+
+
+
+.crop-container {
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  font-size: 0;
+  align-self: flex-start;
+  background-color: #e6e6e6;
+
+  input {
+    height:1px;
+    width:1px;
+    overflow:hidden;
+    margin-left:-99999px;
+    position:absolute;
+  }
+
+  canvas {
+    transition: all 0.3s
+  }
+}
