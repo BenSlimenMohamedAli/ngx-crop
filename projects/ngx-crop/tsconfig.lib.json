@@ -7,7 +7,6 @@
     "declarationMap": true,
     "inlineSources": true,
     "strictPropertyInitialization": false,
-    "types": []
   },
   "exclude": [
     "src/test.ts",

@@ -1,4 +1,5 @@
 <section class="crop-container">
-  <input type="file" #fileInput />
-  <canvas (click)="canvasClick()" [height]="width" [width]="height" #canvas></canvas>
+  <input type="file" (change)="onSelectImage($event)" #fileInput />
+  <canvas (click)="canvasClick()" (dblclick)="onDoubleClick($event)" (mousemove)="onPointerMove($event)"
+    (pointermove)="onPointerMove($event)" [height]="height" [width]="width" #canvas></canvas>
 </section>
